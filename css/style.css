@@ -1,0 +1,54 @@
+*{ margin: 0; padding: 0;}
+.main-container{
+    width: 80%;
+    margin: auto;
+    border:2px solid rgb(61, 172, 27);
+}
+.main-container > h1{
+    text-align: center;
+    color: rgb(61, 172, 27);
+    padding: 20px;
+}
+.main-container .game-content{
+    width: 100%;
+    border-top: 2px solid rgb(61, 172, 27);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-container .game-content>img{
+    width: 15vw;
+    margin: 6% auto;
+    cursor: pointer;
+}
+.main-container .game-content>img:hover{
+    box-shadow: 3px 3px 35px 2px rgb(61, 172, 27);
+}
+
+/* After JavaScript style starts from here */
+
+.main-container .game-content>div{
+    width: 15vw;
+    margin: 6% auto;
+}
+/* human choiced image */
+.main-container .game-content .human-choice{
+    width: 100%;
+    box-shadow: 3px 3px 35px 2px #355de0;
+    
+}
+/* result message  */
+.main-container .game-content>div>h1{
+    font-size: 40px;
+    margin-top: 50%;
+}
+/* bot cohiced images */
+.main-container .game-content .bot-choice{
+    width: 100%;
+    box-shadow: 3px 3px 35px 2px #f33e3e;
+}
+.main-container .game-content>div>h2{
+    text-align: center;
+}
+
+
